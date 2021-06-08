@@ -10,10 +10,22 @@ body,html {
   font-family: sans-serif;
 }
 
+.information {
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  align-items: center;
+}
+
+.window {
+  width: 50%;
+  justify-content: center;
+}
+
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 95vh;
   align-items: center;
   justify-content: center;
 }
@@ -48,4 +60,11 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+#github {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
 }
